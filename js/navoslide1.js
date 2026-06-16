@@ -1,5 +1,5 @@
-const templateWidth = 2000;
-const templateHeight = 2000;
+const templateWidth = 2160;
+const templateHeight = 2880;
 canvas.width = templateWidth;
 canvas.height = templateHeight;
 

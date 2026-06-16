@@ -46,6 +46,18 @@ main{
 }
 #indextitel{
  text-align: center;
+ font-family: 'BebasNeueBoldItalic', sans-serif;
+ font-size: 3em;
+}
+#indexp{
+ text-align: center;
+ font-family: 'BebasNeueRegular', sans-serif;
+ font-size: 1.5em;
+}
+#indexd{
+ text-align: center;
+ font-family: 'BebasNeueRegular', sans-serif;
+ font-size: 1em;
 }
 
 @media (min-width: 768px) {
@@ -100,6 +112,10 @@ main{
     src: url('Bebas\ Neue\ Pro\ Regular.ttf');
 }
 @font-face {
+    font-family: 'BebasNeueBoldItalic';
+    src: url('BebasNeuePro-BoldItalic.ttf');
+}
+@font-face {
     font-family: 'BebasNeueThin';
     src: url('Bebas\ Neue\ Pro\ Thin.ttf');
 }
@@ -127,4 +143,8 @@ main{
 @font-face {
     font-family: "BarlowMedium";
     src: url("Barlow-Medium.ttf");
+}
+@font-face {
+    font-family: "MontserratBold";
+    src: url("Montserrat-Bold.ttf");
 }
